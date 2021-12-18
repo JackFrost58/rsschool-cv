@@ -7,12 +7,15 @@ _Phone number:_ +375333783626
 _E-mail:_ zgv2324@gmail.com  
 _Git:_ [JackFrost58](https://github.com/JackFrost58)  
 _Discord_: Vladislav Zhgirov (@JackFrost58)
+  
 ## About Me
 My goal is to start a career as a front-end developer and constantly develop in this area, and then get a job. To achieve my goal, I will make every effort.
+  
 ## Skills
 1. HTML+CSS
 2. JavaScript
 3. Git  
+
 ## Code examples
 My solution Kata [Extract Nested Object Reference](https://www.codewars.com/kata/527a6e602a7db3456e000a2b)
 ***
@@ -28,10 +31,13 @@ Object.prototype.hash = function(string) {
   return obj;
 }
 ```
+  
 ## Higher education
 * 2014-2018 **Vitebsk State University named after P.M. Masherov**, Mathematician-Programmer, Teacher of Mathematics and Informatics
 * 2018-2020 **Vitebsk State University named after P.M. Masherov**, Master of Science in Mathematics and Physics  
+  
 ## Online learning
-* 2019 **Rolling Scoops School**, JavaScript
+* 2019 **Rolling Scoops School**, JavaScript  
+  
 ## English
 My English level - A1
