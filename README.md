@@ -1,2 +1,2 @@
-My CV 
-[Markdown & Git](https://jackfrost58.github.io/rsshool-cv/cv)
+My CV  
+https://jackfrost58.github.io/rsshool-cv/
