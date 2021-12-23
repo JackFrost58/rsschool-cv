@@ -6,6 +6,6 @@ a {
     text-decoration: none;
 }
 
-.nav-list {
+.nav-list li {
     display: inline;
 }
