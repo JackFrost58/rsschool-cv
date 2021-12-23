@@ -2,14 +2,10 @@ body {
     
 }
 
-.git-logo {
-
-}
-
-.rss-logo {
-
-}
-
 a {
     text-decoration: none;
+}
+
+.nav-list {
+    display: inline;
 }
