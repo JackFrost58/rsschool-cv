@@ -14,7 +14,8 @@ My goal is to start a career as a front-end developer and constantly develop in 
 ## Skills
 1. HTML+CSS
 2. JavaScript
-3. Git  
+3. Git
+4. Photoshop  
 
 ## Code examples
 My solution Kata [Extract Nested Object Reference](https://www.codewars.com/kata/527a6e602a7db3456e000a2b)
@@ -37,7 +38,7 @@ Object.prototype.hash = function(string) {
 * 2018-2020 **Vitebsk State University named after P.M. Masherov**, Master of Science in Mathematics and Physics  
   
 ## Online learning
-* 2019 **Rolling Scoops School**, JavaScript  
+* 2019-2020 **Rolling Scopes School**, JavaScript  
   
 ## English
-My English level - A1
+English level - A1
