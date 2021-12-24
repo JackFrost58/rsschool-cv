@@ -17,13 +17,15 @@ body {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 20px;
-    background: linear-gradient(to right, #F8F8FF 70%, white 30%);
+    padding-bottom: 70px;
+    background: linear-gradient(to right, #F8F8FF 76%, white 24%);
 }
 
 main {
-    background: linear-gradient(to right, #F8F8FF 70%, white 30%);
+    display: flex;
+    background: linear-gradient(to right, #F8F8FF 76%, white 24%);
 }
 
 a {
@@ -41,13 +43,21 @@ h1 {
 h2 {
     font-family: "RobotoL";
     font-weight: 100;
+    text-transform: uppercase;
     color: #F0CB56;
+}
+
+section {
+    margin-left: 15px;
 }
 
 .last-name__yellow {
     color: #F0CB56;
 }
 
+.prof__black {
+    color: black;
+}
 
 .my-photo {
     border: 1px solid #F0CB56;
@@ -58,7 +68,7 @@ h2 {
 .nav-list li {
     display: inline;
     width: 100px;
-    margin-right: 5px;
+    margin: 10px;
     padding: 5px;
     border-radius: 5px;
 }
@@ -78,7 +88,7 @@ li a {
 
 .name-wrapper {
     align-self: center;
-    margin: 30px 5px;
+    margin: 40px 40px;
     padding:  5px;
 }
 
@@ -86,9 +96,24 @@ li a {
     display: flex;
     justify-content: center;
     align-self: center;
+    margin-top: 60px;
     padding: 15px;
     border: 3px solid #EFF1FE;
     border-radius: 50%;
     border-top-color: #F0CB56;
     border-right-color: #F0CB56;
+}
+
+.right-content {
+    width: 265px;
+    margin-left:15px;
+}
+
+.left-content {
+    width: 835px;
+}
+
+.list li{
+    list-style-type: square;
+    color: #F0CB56;
 }

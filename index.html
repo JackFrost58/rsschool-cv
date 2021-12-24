@@ -19,16 +19,16 @@
                         <a href="#aboutMe"> About me </a>
                     </li>
                     <li>
-                        <a href="#skills"> Skills </a>
+                        <a href="#education"> Education </a>
                     </li>
                     <li>
                         <a href="#codeExample"> Code example </a>
                     </li>
                     <li>
-                        <a href="#project"> Project </a>
+                        <a href="#skills"> Skills </a>
                     </li>
                     <li>
-                        <a href="#education"> Education </a>
+                        <a href="#project"> Project </a>
                     </li>
                     <li>
                         <a href="#languages"> languages </a>
@@ -37,9 +37,9 @@
             </nav>
             <div class="name-wrapper">
                 <h1> Vladislav
-                    <a class="last-name__yellow"> Zhgirov </a>
+                    <span class="last-name__yellow"> Zhgirov </ы>
                 </h1>
-                <h2 class=""> Junior Frontend Developer </h2>
+                <h2 class="prof__black"> Junior Frontend Developer </h2>
             </div>
         </div>
         <div class="photo-wrapper">
@@ -47,27 +47,80 @@
         </div>    
     </header>
     <main>
-        <section id="contact">
-            <h2>Contact Info</h2>
-        </section>
-        <section id="aboutMe">
-            <h2>About Me</h2>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-        </section>
-        <section id="codeExample">
-            <h2>Code Example</h2>
-        </section>
-        <section id="project">
-            <h2>Project</h2>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-        </section>
-        <section id="languages">
-            <h2>Languages</h2>
-        </section>
+        <div class="left-content">
+            <section id="aboutMe">
+                <h2>About Me</h2>
+                <p>
+                    My goal is to start a career as a front-end developer and constantly 
+                    develop in this area, and then get a job. To achieve my goal, I will make every effort.
+                </p>
+            </section>
+            <section id="codeExample">
+                <h2>Code Example</h2>
+                <p>My solution Kata Extract Nested Object Reference </p>
+                <pre>
+                    Object.prototype.hash = function(string) {
+                      var mas = string.split('.');
+                      var obj = this;
+                      for (let i = 0; i &lt mas.length; i++) {
+                        if (mas[i] in obj) {
+                          obj = obj[mas[i]];
+                        } else return undefined;
+                      } 
+                      return obj;
+                    }
+                </pre>
+            </section>
+            <section id="project">
+                <h2>Project</h2>
+                <ul class="list">
+                    <li>
+                        <a href="https://peaceful-curran-ed2df9.netlify.app/">
+                            <img src="./img/FirstProject.JPG" alt="Fisrt Project" width="300" height="300">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://zen-booth-530571.netlify.app/">
+                            <img src="./img/SecondProject.JPG" alt="Second Project" width="300" height="300"> 
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-content">
+            <section id="education">
+                <h2>Education</h2>
+                <ul class="list">
+                    <li>
+                        <h4>Higher education</h4>
+                        <ul class="list">
+                            <li>2014-2018 Vitebsk State University named after P.M. Masherov, Mathematician-Programmer, Teacher of Mathematics and Informatics</li>
+                            <li>2018-2020 Vitebsk State University named after P.M. Masherov, Master of Science in Mathematics and Physics</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Online education</h4>
+                        <p>2019-2020 Rolling Scoops School, JavaScript</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul class="list">
+                    <li>HTML + CSS</li>
+                    <li>JAVASRIPT</li>
+                    <li>GIT</li>
+                    <li>PHOTOSHOP</li>
+                </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul class="list">
+                    <li>Russian</li>
+                    <li>English</li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <a href="https://rs.school/js/">
@@ -76,6 +129,9 @@
         <a href="https://github.com/JackFrost58">    
             <img src="./img/github-svgrepo-com.svg" alt="Git-logo" width="50" height="50">
         </a>
+        <section id="contact" class="">
+            <h2>Contact Info</h2>
+        </section>
     </footer>
 </body>
 </html>
