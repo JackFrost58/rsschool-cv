@@ -105,7 +105,11 @@ li a {
 }
 
 .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 265px;
+    height: 620px;
     margin-left:15px;
 }
 
@@ -113,7 +117,42 @@ li a {
     width: 835px;
 }
 
-.list li{
+.right-content__list {
+    padding-left: 20px;
+}
+
+.right-content__list li{
+    font-weight: bold;
+    margin: 20px 0px;
     list-style-type: square;
+}
+
+.right-content__list li::marker {
     color: #F0CB56;
+}
+
+.right-content__header {
+   margin: 20px 0px; 
+}
+
+.right-content__item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.right-content__subtitle {
+    margin: 10px 0px;
+}
+
+.right-content__years {
+    color: #515151;
+}
+
+.right-content__list_no-marker {
+    list-style-type: none;
+}
+
+.right-content__qualification {
+    font-weight: bold;
 }
