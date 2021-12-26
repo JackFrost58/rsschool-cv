@@ -22,7 +22,7 @@
                         <a href="#education"> Education </a>
                     </li>
                     <li>
-                        <a href="#codeExample"> Code example </a>
+                        <a href="#code"> Code example </a>
                     </li>
                     <li>
                         <a href="#skills"> Skills </a>
@@ -39,7 +39,7 @@
                 <h1> Vladislav
                     <span class="last-name__yellow"> Zhgirov </span>
                 </h1>
-                <h2 class="prof__black"> Junior Frontend Developer </h2>
+                <h2 class="prof__black"> Junior Front-end Developer </h2>
             </div>
         </div>
         <div class="photo-wrapper">
@@ -49,30 +49,32 @@
     <main>
         <div class="left-content">
             <section id="aboutMe">
-                <h2>About Me</h2>
-                <p>
-                    My goal is to start a career as a front-end developer and constantly 
-                    develop in this area, and then get a job. To achieve my goal, I will make every effort.
-                </p>
+                <h2 class="left-content__header">About Me</h2>
+                <span class="left-content__text">
+                    My goal is to start a career in the field of front-end developer and 
+                    constantly develop in this area, then get a job in this specialty. 
+                    I will do my best to achieve my goal.
+                </span>
             </section>
-            <section id="codeExample">
-                <h2>Code Example</h2>
-                <p>My solution Kata Extract Nested Object Reference </p>
-                <pre>
-                    Object.prototype.hash = function(string) {
-                      var mas = string.split('.');
-                      var obj = this;
-                      for (let i = 0; i &lt mas.length; i++) {
-                        if (mas[i] in obj) {
-                          obj = obj[mas[i]];
-                        } else return undefined;
-                      } 
-                      return obj;
-                    }
-                </pre>
+            <section id="code">
+                <h2 class="left-content__header">Code Example</h2>
+                <span class="left-content__text">My solution Kata </span>
+                <a href="https://www.codewars.com/kata/527a6e602a7db3456e000a2b" class="left-content__text code__text_yellow">Extract Nested Object Reference</a> 
+<pre class="left-content__text ">
+    <code>
+        Object.prototype.hash = function(string) {
+            var mas = string.split('.');
+            var obj = this;
+            for (let i = 0; i &lt; mas.length; i++) {
+                if (mas[i] in obj) {obj = obj[mas[i]];} 
+                else return undefined;} 
+            return obj;
+        }                  
+    </code>
+</pre>             
             </section>
             <section id="project">
-                <h2>Project</h2>
+                <h2 class="left-content__header">Project</h2>
                 <ul class="list__marker list">
                     <li>
                         <a href="https://peaceful-curran-ed2df9.netlify.app/">
@@ -115,7 +117,7 @@
                 <h2 class="right-content__header">Skills</h2>
                 <ul class="right-content__list">
                     <li>HTML + CSS</li>
-                    <li>JAVASRIPT</li>
+                    <li>JAVASCRIPT</li>
                     <li>GIT</li>
                     <li>PHOTOSHOP</li>
                 </ul>
