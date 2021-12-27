@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     background: linear-gradient(to right, #F8F8FF 76%, white 24%);
 }
 
@@ -50,7 +50,7 @@ section {
     margin-left: 15px;
 }
 
-.last-name__yellow {
+.wrapper__last-name_yellow {
     color: #F0CB56;
 }
 
@@ -58,13 +58,13 @@ section {
     color: black;
 }
 
-.my-photo {
+.wrapper__photo {
     border: 1px solid #F0CB56;
     border-radius: 50%;
     background-color: white;
 }
 
-.nav-list li {
+.menu__list li {
     display: inline;
     width: 100px;
     margin: 10px;
@@ -72,12 +72,11 @@ section {
     border-radius: 5px;
 }
 
-.nav-list li:hover {
+.menu__list li:hover {
     background-color: #F0CB56;
 }
 
 li a {
-    text-transform: uppercase;
     text-decoration: none;
     color: black;
 }
@@ -86,13 +85,13 @@ li a {
     flex-direction: column;
 }
 
-.name-wrapper {
+.wrapper__name-content {
     align-self: center;
     margin: 40px 40px;
     padding:  5px;
 }
 
-.photo-wrapper {
+.wrapper__photo-container {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -177,4 +176,72 @@ li a {
 
 .left-content__code-wrapper {
     padding: 10px 0;
+}
+
+.project__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    list-style-type: none;
+}
+
+.project__list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+}
+
+.project__picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.project__picture:hover {
+    border: 3px solid #F0CB56;
+}
+
+#project {
+    height: 400px;
+}
+
+.project__name {
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to right, #F8F8FF 76%, white 24%);
+}
+
+.footer__year {
+    padding-top: 30px;
+}
+
+.contact__image {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+
+.contact__list li{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    list-style-type: none;
+}
+
+.contact__text {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.contact__text:hover {
+    text-decoration: underline;
 }

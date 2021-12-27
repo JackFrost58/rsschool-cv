@@ -11,43 +11,70 @@
     <header>  
         <div class="wrapper"> 
             <nav class="menu">
-                <ul class="nav-list">
+                <ul class="menu__list">
                     <li>
-                        <a href="#contact">Contact info</a>
+                        <a href="#contact">CONTACT INFO</a>
                     </li>
                     <li>
-                        <a href="#aboutMe"> About me </a>
+                        <a href="#aboutMe"> ABOUT ME </a>
                     </li>
                     <li>
-                        <a href="#education"> Education </a>
+                        <a href="#education"> EDUCATION </a>
                     </li>
                     <li>
-                        <a href="#code"> Code example </a>
+                        <a href="#code"> CODE EXAMPLE </a>
                     </li>
                     <li>
-                        <a href="#skills"> Skills </a>
+                        <a href="#skills"> SKILLS </a>
                     </li>
                     <li>
-                        <a href="#project"> Project </a>
+                        <a href="#project"> PROJECT </a>
                     </li>
                     <li>
-                        <a href="#languages"> languages </a>
+                        <a href="#languages"> LANGUAGES </a>
                     </li>
                 </ul>
             </nav>
-            <div class="name-wrapper">
+            <div class="wrapper__name-content">
                 <h1> Vladislav
-                    <span class="last-name__yellow"> Zhgirov </span>
+                    <span class="wrapper__last-name_yellow"> Zhgirov </span>
                 </h1>
                 <h2 class="prof__black"> Junior Front-end Developer </h2>
             </div>
         </div>
-        <div class="photo-wrapper">
-            <img src="./img/My_photo.jpg" class="my-photo" alt="My photo" width="200" height="200">
+        <div class="wrapper__photo-container">
+            <img src="./img/My_photo.jpg" class="wrapper__photo" alt="My photo" width="200" height="200">
         </div>    
     </header>
     <main>
         <div class="left-content">
+            <section id="contact">
+                <h2 class="left-content__header">Contact Info</h2>
+                <ul class="contact__list">
+                    <li>
+                        <img class="contact__image" src="./img/phone_icon.png" alt="Phone icon">
+                        <span class="contact__text">
+                            <a href="tel:+375333783626">+375333783626</a>
+                        </span>
+                    </li>
+                    <li>
+                        <img class="contact__image" src="./img/email_icon.png" alt="Email icon">
+                        <span class="contact__text">
+                            <a href="mailto:zgv2324@gmail.com">zgv2324@gmail.com</a>
+                        </span> 
+                    </li>
+                    <li>
+                        <img class="contact__image" src="./img/git_icon.png" alt="Git icon">
+                        <span class="contact__text"> 
+                            <a href="https://github.com/JackFrost58">JackFrost58</a>
+                        </span>
+                    </li>
+                    <li>
+                        <img class="contact__image" src="./img/discord_icon.png" alt="Discord icon">
+                        <span class="contact__text">Vladislav Zhgirov (@JackFrost58)</span>
+                    </li>
+                </ul>
+            </section>
             <section id="aboutMe">
                 <h2 class="left-content__header">About Me</h2>
                 <span class="left-content__text">
@@ -75,16 +102,18 @@
             </section>
             <section id="project">
                 <h2 class="left-content__header">Project</h2>
-                <ul class="list__marker list">
+                <ul class="project__list">
                     <li>
                         <a href="https://peaceful-curran-ed2df9.netlify.app/">
-                            <img src="./img/FirstProject.JPG" alt="Fisrt Project" width="300" height="300">
+                            <img src="./img/FirstProject.JPG" alt="Fisrt Project" class="project__picture">
                         </a>
+                        <span class="project__name">The Yalow Project </span>
                     </li>
                     <li>
                         <a href="https://zen-booth-530571.netlify.app/">
-                            <img src="./img/SecondProject.JPG" alt="Second Project" width="300" height="300"> 
+                            <img src="./img/SecondProject.JPG" alt="Second Project" class="project__picture"> 
                         </a>
+                        <span class="project__name">REPAIR DESIGN PROJECT</span>
                     </li>
                 </ul>
             </section>
@@ -132,15 +161,13 @@
         </div>
     </main>
     <footer>
-        <a href="https://rs.school/js/">
-            <img src="./img/rs_school_js.svg" alt="RSS-logo" width="100" height="100">
-        </a>
         <a href="https://github.com/JackFrost58">    
-            <img src="./img/github-svgrepo-com.svg" alt="Git-logo" width="50" height="50">
+            <img src="./img/github-svgrepo-com.svg" alt="Git-logo" width="90" height="50">
         </a>
-        <section id="contact" class="">
-            <h2>Contact Info</h2>
-        </section>
+        <span class="footer__year">© 2021 by Vladislav Zhgirov</span>
+        <a href="https://rs.school/js/">
+            <img src="./img/rs_school_js.svg" alt="RSS-logo" width="90" height="50">
+        </a> 
     </footer>
 </body>
 </html>
