@@ -14,7 +14,7 @@ My goal is to start a career as a front-end developer and constantly develop in 
 ## Skills
 1. HTML+CSS
 2. JavaScript
-3. Git  
+3. Git
 4. Photoshop  
 
 ## Code examples
@@ -38,7 +38,7 @@ Object.prototype.hash = function(string) {
 * 2018-2020 **Vitebsk State University named after P.M. Masherov**, Master of Science in Mathematics and Physics  
   
 ## Online learning
-* 2019 **Rolling Scopes School**, JavaScript  
+* 2019-2020 **Rolling Scopes School**, JavaScript  
   
 ## English
 English level - A1
